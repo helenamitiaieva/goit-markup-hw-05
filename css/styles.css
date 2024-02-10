@@ -516,10 +516,10 @@ margin-bottom: 16px;
 
 .sbscrb-form {
   display: flex;
+  gap: 24px;
 }
 
 .sbscrb-label {
-  gap: 24px;
 }
 
 .sbscrb-input {
@@ -556,7 +556,6 @@ display: flex;
     background:#4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    transform: translateY(100%);
 }
 
 .sbscrb-button:hover,
