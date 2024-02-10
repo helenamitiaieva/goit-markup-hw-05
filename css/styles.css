@@ -204,26 +204,6 @@ img {
   background: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  visibility: hidden;
-  color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
 .list-advantages {
   display: flex;
   gap: 24px;
@@ -503,7 +483,7 @@ img {
 }
 
 .footer-sbscrb {
-  margin-left: 80px;
+  margin-left: auto;
 }
 
 .sbscrb-paragraph {
@@ -524,13 +504,16 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  padding-top: 8px;
   width: 264px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
+}
+
+.sbscrb-input::placeholder {
+ color: #fff;
 }
 
 .sbscrb-button {
@@ -680,6 +663,7 @@ margin-bottom: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 
 .modal-input:focus {
@@ -729,6 +713,10 @@ margin-bottom: 16px;
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
+}
+
+.modal-checkbox:focus + .modal-label .modal-checkbox-span {
+  border-color: #4D5AE5;
 }
 
 .modal-checkbox-span {
