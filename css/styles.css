@@ -661,10 +661,7 @@ img {
 }
 
 .modal-label-checkbox {
-  display: flex;
   align-items: center;
-  margin-top: 16px;
-  margin-bottom: 24px;
   flex-direction: row;
 }
 
